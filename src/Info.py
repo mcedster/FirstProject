@@ -10,5 +10,3 @@ Game loop
 Battle Sequence
 Item shop
 """
-
-print("Hello world")
