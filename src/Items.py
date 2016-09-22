@@ -19,13 +19,13 @@ class Items:
         if self.items == "cheese sword":
 
         if self.items == "elven sword":
-
+            self.speed += 2
         if self.items == "short sword":
 
         if self.items == "scion's rod": #10 items
 
         if self.items == "wizard's Staff":
-
+            self.max_mana += 20
         if self.items == "thorned bow":
 
         if self.items ==  "arach's bow":

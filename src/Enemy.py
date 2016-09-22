@@ -55,7 +55,7 @@ class enemy:
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
             self.speed = 5
             self.level = 5
-            self.exp = 18
+            self.exp = 18   
             self.gold = 20
         if name == "lizard-man":
             self.max_health = 50
