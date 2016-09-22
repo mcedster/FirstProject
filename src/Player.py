@@ -5,7 +5,8 @@ class player:
         if role == "warrior":
             self.max_health = 30
             self.health = self.max_health
-            self.mana = 10
+            self.max_mana = 20
+            self.mana = self.max_mana
             self.inventory = []
             self.weapon = None
             self.armor = 6
@@ -17,7 +18,8 @@ class player:
         if role == "mage":
             self.max_health = 20
             self.health = self.max_health
-            self.mana = 25
+            self.max_mana = 50
+            self.mana = self.max_mana
             self.inventory = []
             self.weapon = None
             self.armor = 2
@@ -29,7 +31,8 @@ class player:
         if role == "archer":
             self.max_health = 25
             self.health = self.max_health
-            self.mana = 15
+            self.max_mana = 30
+            self.mana = self.max_mana
             self.inventory = []
             self.weapon = None
             self.armor = 4

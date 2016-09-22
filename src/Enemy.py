@@ -9,7 +9,6 @@ class enemy:
             self.armor = 0
             self.magic_resist = 0
             self.item = 0
-            self.weapon = None #TODO have it state what item it has
             self.speed = 1
             self.level = 0
             self.exp = 3
@@ -21,7 +20,6 @@ class enemy:
             self.armor = 3
             self.magic_resist = 1
             self.item = 0
-            self.weapon = None
             self.speed = 2
             self.level = 1
             self.exp = 5
@@ -33,7 +31,6 @@ class enemy:
             self.armor = 3
             self.magic_resist = 2
             self.item = 0 #after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 3
             self.level = 3
             self.exp = 8
@@ -45,7 +42,6 @@ class enemy:
             self.armor = 3
             self.magic_resist = 2
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 3
             self.level = 3
             self.exp = 10
@@ -57,7 +53,6 @@ class enemy:
             self.armor = 5
             self.magic_resist = 5
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 5
             self.level = 5
             self.exp = 18
@@ -69,7 +64,6 @@ class enemy:
             self.armor = 6
             self.magic_resist = 5
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 5
             self.level = 6
             self.exp = 24
@@ -81,7 +75,6 @@ class enemy:
             self.armor = 7
             self.magic_resist = 5
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 6
             self.level = 7
             self.exp = 29
@@ -93,7 +86,6 @@ class enemy:
             self.armor = 10
             self.magic_resist = 10
             self.item = 0  # after u know how many items u gonna have, put the random int thing here
-            self.weapon = None
             self.speed = 10
             self.level = 10
             self.exp = 50
