@@ -3,7 +3,8 @@ import random
 class player:
     def __init__(self, role):
         if role == "warrior":
-            self.health = 30
+            self.max_health = 30
+            self.health = self.max_health
             self.mana = 10
             self.inventory = []
             self.weapon = None
@@ -14,7 +15,8 @@ class player:
             self.ability = ["shield bolster", "enrage", "double-slash"]
             self.gold = 0
         if role == "mage":
-            self.health = 20
+            self.max_health = 20
+            self.health = self.max_health
             self.mana = 25
             self.inventory = []
             self.weapon = None
@@ -25,7 +27,8 @@ class player:
             self.ability = ["fireball", "icicle", "lightning", "earth shock"]
             self.gold = 0
         if role == "archer":
-            self.health = 25
+            self.max_health = 25
+            self.health = self.max_health
             self.mana = 15
             self.inventory = []
             self.weapon = None

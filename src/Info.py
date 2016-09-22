@@ -5,6 +5,7 @@ Boss class
 Weapon class
 Equipment class?
 Item class
+Ability class
 
 Game loop
 Battle Sequence
